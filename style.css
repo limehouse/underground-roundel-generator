@@ -1,0 +1,74 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Cabin", sans-serif;
+  text-align: center;
+}
+
+.navbar {
+  background: #0019A8;
+  color: #fff;
+  float: left;
+  width: 100%;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.navbar .title {
+  float: left;
+  padding: 20px 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.navbar .actions {
+  float: right;
+}
+.navbar .actions .action {
+  display: inline-block;
+  padding: 23px 22px;
+  float: right;
+  transition: all 0.3s linear;
+}
+.navbar .actions .action.save {
+  background: #2ecc71;
+  outline: 0;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+.navbar .actions .action.save:focus, .navbar .actions .action.save:visited {
+  color: #fff;
+  text-decoration: none;
+}
+.navbar .actions .action.save:hover {
+  background: #27ae60;
+}
+.navbar .actions .action.update {
+  background: #DC241F;
+  cursor: pointer;
+}
+.navbar .actions .action.update:hover {
+  background: #c0392b;
+}
+.navbar .actions .action.input {
+  padding: 16px;
+}
+.navbar .actions .action.input .logo-title {
+  background: none;
+  border: 0px;
+  border-bottom: 1px solid #fff;
+  padding: 0px 0px 5px 0px;
+  outline: 0;
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+.navbar .actions .action:hover {
+  transition: all 0.3s linear;
+}
+
+canvas {
+  display: inline-block;
+}
